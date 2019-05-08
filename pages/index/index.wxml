@@ -14,10 +14,18 @@
     bindtap = "swichNav"> 课程评价 </view>
 </view>
 
-<text>{{ currentTab }}</text>
 
-<view wx:if = "{{currentTab == 0}}"
->hahaha</view>
+<view wx:if = "{{currentTab == 0}}">
+  <courseTable></courseTable>
+</view>
+
+<view wx:elif = "{{currentTab == 1}}">
+  <activity></activity>
+</view>
+
+<view wx:else>
+  <courseRating></courseRating>
+</view>
 
 <scroll-view
   class = "test"
