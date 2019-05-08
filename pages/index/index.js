@@ -1,5 +1,5 @@
 const app = getApp()
-
+// ljwr
 Page({
   data: {
     currentTab: 0,
