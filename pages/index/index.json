@@ -1,3 +1,7 @@
 {
-  "usingComponents": {}
+  "usingComponents": {
+    "activity": "./activity/activity",
+    "courseRating": "./courseRating/courseRating",
+    "courseTable": "./courseTable/courseTable"
+  }
 }
