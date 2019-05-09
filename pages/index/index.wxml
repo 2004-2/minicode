@@ -26,9 +26,3 @@
 <view wx:else>
   <courseRating></courseRating>
 </view>
-
-<scroll-view
-  class = "test"
-  scroll-y
-  style = "height: 1000px">
-</scroll-view>
