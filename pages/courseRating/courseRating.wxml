@@ -1,21 +1,6 @@
-<!--pages/index/activity/activity.wxml-->
-<!--
-<view class = "searchBox">
-  <image class = "searchIcon" src = "../../image/search.png" mode = "widthFix">
-  </image>
-  <input class = "searchContent" placeholder = "请输入关键词" confirm-type = "search"/>
-</view>
--->
+<van-search value="{{ value }}" placeholder="请输入搜索关键词" />
 
-<view>
-  <input 
-    class = "searchContent" 
-    placeholder = "搜索" 
-    confirm-type = "search"/>
-</view>
-
-
-<block wx:for = "{{activityList}}">
+<block wx:for = "{{items}}">
   <navigator>
     <view class = "aItem">
       <label class = "title">{{title}}</label>
