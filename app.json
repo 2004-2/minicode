@@ -21,7 +21,7 @@
     "position": "bottom",
     "list": [
       {
-        "pagePath": "pages/index/index",
+        "pagePath": "pages/courseRating/courseRating",
         "text": "首页",
         "iconPath": "pages/image/menuicon/home.png",
         "selectedIconPath": "pages/image/menuicon/home2.png"
