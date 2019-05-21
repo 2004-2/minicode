@@ -1,0 +1,30 @@
+/* pages/index/activity/activity.wxss */
+.searchBox {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center; 
+}
+.searchContent {
+  margin: 18rpx;
+  border-bottom: 1px solid #DBDBDB;
+}
+.aItem {
+  margin: 24rpx;
+  border-bottom: 1px solid #DBDBDB;
+  display: flex;
+  flex-direction: column;
+}
+.title {
+  margin-bottom: 10rpx;
+}
+.content {
+  color: grey;
+  font-size: 14px;
+}
+.date {
+  text-align: right;
+  color: grey;
+  font-size: 12px;
+  margin: 8rpx;
+}
