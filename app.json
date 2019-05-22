@@ -4,7 +4,8 @@
     "pages/logs/logs",
     "pages/userCenter/userCenter",
     "pages/courseRating/courseRating",
-    "pages/courseIndex/courseIndex"
+    "pages/courseIndex/courseIndex",
+    "pages/createRating/createRating"
   ],
 
   "window": {
