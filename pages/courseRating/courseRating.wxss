@@ -1,14 +1,3 @@
-/* pages/index/activity/activity.wxss */
-.searchBox {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center; 
-}
-.searchContent {
-  margin: 18rpx;
-  border-bottom: 1px solid #DBDBDB;
-}
 .aItem {
   margin: 24rpx;
   border-bottom: 1px solid #DBDBDB;
