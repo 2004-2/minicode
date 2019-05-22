@@ -32,7 +32,7 @@ For 2nd-year entrants, the prerequisite will be waived.</view>
             </view>
             <view class="weui-form-preview__ft">
                 <!-- <van-rate type="primary"></van-rate> -->
-                <navigator class="weui-form-preview__btn weui-form-preview__btn_primary" hover-class="weui-form-preview__btn_active">点评该课程</navigator>
+                <navigator class="weui-form-preview__btn weui-form-preview__btn_primary" hover-class="weui-form-preview__btn_active" url = "../createRating/createRating">点评该课程</navigator>
             </view>
   </view>
   <view class="weui-panel weui-panel_access">
